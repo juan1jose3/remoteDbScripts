@@ -1,6 +1,10 @@
+docker run -dit --name colombiadb -p 5050:3306 -e MYSQL_ROOT_PASSWORD=root juancho926/custommysql:v1
+
+
+
 SET NAMES utf8mb4;
 
--- Using the correct name now
+
 CREATE DATABASE IF NOT EXISTS departamentos;
 USE departamentos;
 
