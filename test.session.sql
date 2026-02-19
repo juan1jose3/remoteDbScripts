@@ -1,0 +1,1 @@
+SELECT * from municipios LIMIT 5;
